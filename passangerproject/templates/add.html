@@ -5,8 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Document</title>
+    <style>
+        div{
+        background=red;
+        }
+        </style>
 </head>
-<bod>
+<bod><div>
     <form action="/savepassanger/" method="POST">
     {% csrf_token %}
     <table>
@@ -16,5 +21,6 @@
     <input type="submit" value="submit">
     
     </form>
+    </div>
 </body>
 </html>
