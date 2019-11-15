@@ -10,3 +10,4 @@ class DeletePassangerForm(forms.ModelForm):
     class Meta:
         model=Passanger
         fields=['pid']
+        label = {"fname":"Passenger_Name"}
